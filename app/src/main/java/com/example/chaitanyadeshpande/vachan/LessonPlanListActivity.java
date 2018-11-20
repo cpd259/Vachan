@@ -35,11 +35,11 @@ public class LessonPlanListActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.btn_assign1:
                 PDFNameUtility.getInstance().setPdf_name("rl4_Lesson_plan_4.pdf");
-                MainActivity.launch(this);
+                PDFActivity.launch(this);
                 break;
             case R.id.btn_assign2:
                 PDFNameUtility.getInstance().setPdf_name("rl4_lesson_plan_5.pdf");
-                MainActivity.launch(this);
+                PDFActivity.launch(this);
                 break;
         }
     }

@@ -14,7 +14,7 @@
         android:roundIcon="@drawable/manthan_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".PDFActivity">
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -23,8 +23,6 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".Main3Activity" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login">
@@ -37,16 +35,52 @@
             <!-- </intent-filter> -->
         </activity>
         <activity android:name=".SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+
+
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
         </activity>
         <activity android:name=".LessonPlanListActivity" />
         <activity android:name=".ReadingLevelListActivity" />
         <activity android:name=".SessionListActivity" />
-        <activity android:name=".RL1S7Activity"></activity>
+        <activity android:name=".RL1S7Activity" />
+        <activity android:name=".RL1S8Activity" />
+        <activity android:name=".RL1S9Activity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".RL1S10Activity" />
+        <activity android:name=".RL1S11Activity" />
+        <activity android:name=".RL2S7Activity" />
+        <activity android:name=".RL2S8Activity" />
+        <activity android:name=".RL2S9Activity" />
+        <activity android:name=".RL2S10Activity" />
+        <activity android:name=".RL2S11Activity" />
+        <activity android:name=".RL3S7Activity" />
+        <activity android:name=".RL3S8Activity" />
+        <activity android:name=".RL3S9Activity" />
+        <activity android:name=".RL3S10Activity" />
+        <activity android:name=".RL3S11Activity" />
+        <activity android:name=".RL4S7Activity" />
+        <activity android:name=".RL4S8Activity" />
+        <activity android:name=".RL4S9Activity" />
+        <activity android:name=".RL4S10Activity" />
+        <activity android:name=".RL4S11Activity" />
+        <activity android:name=".RL5S7Activity" />
+        <activity android:name=".RL5S8Activity" />
+        <activity android:name=".RL5S9Activity" />
+        <activity android:name=".RL5S11Activity" />
+        <activity android:name=".RL5S10Activity"></activity>
+        <activity
+            android:name=".ExitActivity"
+            android:autoRemoveFromRecents="true"
+            android:theme="@android:style/Theme.NoDisplay" />
     </application>
 
 </manifest>

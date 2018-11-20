@@ -51,442 +51,206 @@
     </android.support.v7.widget.Toolbar>
 
 
-    <android.support.v7.widget.CardView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:foreground="@drawable/ripple_cardview"
-        card_view:cardElevation="3dp"
-        card_view:cardUseCompatPadding="true">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
 
 
-            <LinearLayout
+
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
+                android:layout_margin="5dp"
+                android:foreground="@drawable/ripple_cardview"
+                card_view:cardElevation="3dp"
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
+
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginTop="5dp"
-                        android:layout_weight="2"
-                        android:text="सूचनापत्रक – पत्त्यांची जोडी – लाल गट"
+                        android:layout_weight="1"
+                        android:text="Pattyanchi Jodi"
                         android:textColor="@color/colorPrimary"
                         android:textSize="15sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
-                        android:text="अक्षरांचे स्वतंत्र तसेच शब्दांमध्ये अशा दोन्ही प्रकारे वाचन करता येणे"
-                        android:textSize="14sp"
-                        android:textStyle="normal" />
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="5dp"
-                    android:orientation="horizontal">
-
-
-                    <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:src="@drawable/date" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:layout_weight="1"
-                        android:text="27/08/2018"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
 
                     <Button
                         android:id="@+id/btn_pdf1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/DimenHorizontalSpacingScreen"
                         android:background="@color/colorPrimary"
-                        android:gravity="end"
-                        android:minHeight="25dp"
-                        android:padding="10dp"
-                        android:text="उघडा"
-                        android:textAlignment="center"
                         android:textAllCaps="false"
+                        android:text="Open"
                         android:textColor="@color/colorWhite" />
 
 
+
+
+
                 </LinearLayout>
 
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
 
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:foreground="@drawable/ripple_cardview"
-        card_view:cardElevation="3dp"
-        card_view:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
+                android:layout_margin="5dp"
+                android:foreground="@drawable/ripple_cardview"
+                card_view:cardElevation="3dp"
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
+
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginTop="5dp"
-                        android:layout_weight="2"
-                        android:text="तासाचे नियोजन – सत्र ७ - लाल गट"
+                        android:layout_weight="1"
+                        android:text="Lesson plan 7"
                         android:textColor="@color/colorPrimary"
                         android:textSize="15sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
-                        android:text="अक्षरांचा आणण शब्दांचा जास्तीत जास्त सराव."
-                        android:textSize="14sp"
-                        android:textStyle="normal" />
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="5dp"
-                    android:orientation="horizontal">
-
-
-                    <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:src="@drawable/date" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:layout_weight="1"
-                        android:text="27/08/2018"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
 
                     <Button
                         android:id="@+id/btn_pdf2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/DimenHorizontalSpacingScreen"
                         android:background="@color/colorPrimary"
-                        android:gravity="end"
-                        android:minHeight="25dp"
-                        android:padding="10dp"
-                        android:text="उघडा"
-                        android:textAlignment="center"
                         android:textAllCaps="false"
+                        android:text="Open"
                         android:textColor="@color/colorWhite" />
 
 
+
+
+
                 </LinearLayout>
 
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
 
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:foreground="@drawable/ripple_cardview"
-        card_view:cardElevation="3dp"
-        card_view:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
+                android:layout_margin="5dp"
+                android:foreground="@drawable/ripple_cardview"
+                card_view:cardElevation="3dp"
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
+
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginTop="5dp"
-                        android:layout_weight="2"
-                        android:text="राजू आणि बाहुबली"
+                        android:layout_weight="1"
+                        android:text="Raju aani bahubali"
                         android:textColor="@color/colorPrimary"
                         android:textSize="15sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
-                        android:text="गोष्ट"
-                        android:textSize="14sp"
-                        android:textStyle="normal" />
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="5dp"
-                    android:orientation="horizontal">
-
-
-                    <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:src="@drawable/date" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:layout_weight="1"
-                        android:text="27/08/2018"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
 
                     <Button
                         android:id="@+id/btn_pdf3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/DimenHorizontalSpacingScreen"
                         android:background="@color/colorPrimary"
-                        android:gravity="end"
-                        android:minHeight="25dp"
-                        android:padding="10dp"
-                        android:text="उघडा"
-                        android:textAlignment="center"
                         android:textAllCaps="false"
+                        android:text="Open"
                         android:textColor="@color/colorWhite" />
 
 
+
+
+
                 </LinearLayout>
 
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:foreground="@drawable/ripple_cardview"
-        card_view:cardElevation="3dp"
-        card_view:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
+                android:layout_margin="5dp"
+                android:foreground="@drawable/ripple_cardview"
+                card_view:cardElevation="3dp"
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
+
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginTop="5dp"
-                        android:layout_weight="2"
-                        android:text="गोष्टीत आलेल्या शब्ाांची या्ी"
+                        android:layout_weight="1"
+                        android:text="Raju aani bahubali shabdyadi"
                         android:textColor="@color/colorPrimary"
                         android:textSize="15sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
-                        android:text="राजू आणि बाहुबली"
-                        android:textSize="14sp"
-                        android:textStyle="normal" />
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="5dp"
-                    android:orientation="horizontal">
-
-
-                    <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
-                        android:src="@drawable/date" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:layout_weight="1"
-                        android:text="27/08/2018"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
 
                     <Button
                         android:id="@+id/btn_pdf4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/DimenHorizontalSpacingScreen"
                         android:background="@color/colorPrimary"
-                        android:gravity="end"
-                        android:minHeight="25dp"
-                        android:padding="10dp"
-                        android:text="उघडा"
-                        android:textAlignment="center"
                         android:textAllCaps="false"
+                        android:text="Open"
                         android:textColor="@color/colorWhite" />
+
+
+
 
 
                 </LinearLayout>
 
-            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </ScrollView>
 
 
 

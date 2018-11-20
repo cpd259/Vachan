@@ -84,7 +84,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="सत्र-७"
+                    android:text="Session 7"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -127,7 +127,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="सत्र-८"
+                    android:text="Session 8"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -170,7 +170,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="सत्र-९"
+                    android:text="Session 9"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -213,7 +213,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="सत्र-१०"
+                    android:text="Session 10"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -256,7 +256,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="सत्र-११"
+                    android:text="Session 11"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />

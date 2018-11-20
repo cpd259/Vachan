@@ -61,6 +61,8 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.CardView
+            android:id="@+id/cv1"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vertical_extra_space_between_views"
@@ -84,7 +86,7 @@
                             android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                             android:layout_marginTop="10dp"
                             android:layout_weight="1"
-                            android:text="वाचन पातळी-१"
+                            android:text="Reading Level 1"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -104,6 +106,8 @@
 
 
         <android.support.v7.widget.CardView
+            android:id="@+id/cv2"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vertical_extra_space_between_views"
@@ -127,7 +131,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="वाचन पातळी-२"
+                    android:text="Reading Level 2"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -147,6 +151,8 @@
 
 
         <android.support.v7.widget.CardView
+            android:id="@+id/cv3"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vertical_extra_space_between_views"
@@ -170,7 +176,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="वाचन पातळी-३"
+                    android:text="Reading Level 3"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -190,6 +196,8 @@
 
 
         <android.support.v7.widget.CardView
+            android:id="@+id/cv4"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vertical_extra_space_between_views"
@@ -213,7 +221,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="वाचन पातळी-४"
+                    android:text="Reading Level 4"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -233,6 +241,8 @@
 
 
         <android.support.v7.widget.CardView
+            android:id="@+id/cv5"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vertical_extra_space_between_views"
@@ -256,7 +266,7 @@
                     android:layout_marginLeft="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="वाचन पातळी-५"
+                    android:text="Reading Level 5"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />

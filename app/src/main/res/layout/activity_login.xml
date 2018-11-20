@@ -95,7 +95,7 @@
                     android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:drawablePadding="10dp"
-                    android:hint="वापरकर्तानाव प्रविष्ट करा"
+                    android:hint="Enter Username"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -138,7 +138,7 @@
                     android:layout_marginRight="@dimen/DimenHorizontalSpacingScreen"
                     android:layout_marginTop="10dp"
                     android:drawablePadding="10dp"
-                    android:hint="पासवर्ड टाका"
+                    android:hint="Enter Password"
                     android:inputType="textPassword"
                     android:textSize="16sp" />
 
@@ -159,8 +159,8 @@
         android:layout_below="@+id/ll_login_details_container"
         android:layout_margin="10dp"
         android:background="@color/colorPrimary"
-        android:text="लॉग इन"
-        android:textAllCaps="false"
+        android:text="Login"
+        android:textAllCaps="true"
         android:textColor="@color/colorWhite"
         android:textStyle="bold" />
 
